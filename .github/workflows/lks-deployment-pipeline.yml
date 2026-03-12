@@ -6,7 +6,7 @@ on:
     paths:
       - 'leantime/**'
       - 'gatus/**'
-      - '.github/workflows/Iks-deployment-pipeline.yml'
+      - '.github/workflows/lks-deployment-pipeline.yml'
 
 env:
   AWS_REGION: us-east-1
