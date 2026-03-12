@@ -1,5 +1,4 @@
 {
-  // FILL IN THE MISSING VALUES BELOW
   "family": "lks-gatus-app",
   "taskRoleArn": "arn:aws:iam::311145410099:role/Iks-ecs-task-execution-role",
   "executionRoleArn": "arn:aws:iam::311145410099:role/Iks-ecs-task-execution-role",
@@ -9,7 +8,6 @@
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
   "memory": "1024",
-  // FILL IN THE MISSING VALUES ABOVE
 
   "runtimePlatform": {
     "cpuArchitecture": "X86_64",
@@ -25,7 +23,6 @@
       "volumesFrom": [],
       "systemControls": [],
 
-      // FILL IN THE MISSING VALUES BELOW
       "portMappings": [
         {
           "containerPort": 8080,
@@ -44,7 +41,6 @@
           "awslogs-stream-prefix": "ecs"
         }
       }
-      // FILL IN THE MISSING VALUES ABOVE
     }
   ]
 }
