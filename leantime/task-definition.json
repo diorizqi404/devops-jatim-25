@@ -1,5 +1,5 @@
 {
-  // FILL IN THE MISSING VALUES BELOW
+
   "family": "lks-leantime-app",
   "taskRoleArn": "arn:aws:iam::311145410099:role/Iks-ecs-task-execution-role",
   "executionRoleArn": "arn:aws:iam::311145410099:role/Iks-ecs-task-execution-role",
@@ -33,7 +33,7 @@
       }
     }
   ],
-  // FILL IN THE MISSING VALUES ABOVE
+
 
   "placementConstraints": [],
   "runtimePlatform": {
@@ -51,7 +51,7 @@
       "volumesFrom": [],
       "systemControls": [],
 
-      // FILL IN THE MISSING VALUES BELOW
+
       "portMappings": [
         {
           "containerPort": 8080,
@@ -89,7 +89,7 @@
           "awslogs-stream-prefix": "ecs"
         }
       }
-      // FILL IN THE MISSING VALUES ABOVE
+
     }
   ]
 }
