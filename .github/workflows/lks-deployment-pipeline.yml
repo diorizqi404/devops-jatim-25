@@ -1,4 +1,4 @@
-name: Iks Deployment Pipeline
+name: LKS Deployment Pipeline
 
 on:
   push:
