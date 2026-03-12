@@ -10,7 +10,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: Iks-gatus
+  ECR_REPOSITORY: lks-gatus
   ECS_CLUSTER: Iks-oss-cluster
   
   # Variabel Leantime
